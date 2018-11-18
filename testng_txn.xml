@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Default suite">
+  <test name="Default test" preserve-order="true">
+   <classes>
+        <!-- -->
+      	<class name="com.accp.test.api.test.txn.TradeCreateTest"/>
+      	<class name="com.accp.test.api.test.txn.PaymentBalanceTest"/>   		
+      	<class name="com.accp.test.api.test.txn.PaymentBankcardTest"/>      	
+        <class name="com.accp.test.api.test.txn.ValidationSmsTest"/>
+		<class name="com.accp.test.api.test.txn.SecuredConfirmTest"/>   		
+   	    <class name="com.accp.test.api.test.txn.QueryPaymentTest"/>
+		<class name="com.accp.test.api.test.txn.QueryRefundTest"/>		
+		<class name="com.accp.test.api.test.txn.BalanceRefundTest"/>
+		<class name="com.accp.test.api.test.txn.BankcardRefundTest"/>
+   </classes> 
+ </test>
+</suite>
